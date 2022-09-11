@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Basic css syntax</title>
 </head>
 <body>
   <header>CSS First Steps</header>
@@ -14,19 +14,51 @@
     
     <dl>
       <dt><h2>CSS Properties</h2></dt>
-      <dd><p>In CSS, to allow the programmer to freely control the appearance of the elements that he styles, the lenguaje provides a specific set of keywors that are associated to a concrete aesthetic detail of every element, each of them 
-      </p></dd>
+      <dd><p>The CSS Properties are a predefined disjoint categories of element's possible concrete visual characteristics/atributtes. CSS provides the properties to make possible to the programmers the set of a member of each category as an actual visual characteristic of the element styled. For that purpose, the lenguaje provides to each one a <strong>property name</strong> and a set of <strong>values</strong> wich can be used in a expression of the lenguaje called <strong>declaration</strong>.</p>
 
-      <dt><h2>CSS Properties</h2></dt>
-      <dd><p></p></dd>
+        <dl>
+          <dt><h3>Porperty name</h3></dt>
+          <dd><p>The property name is a predefined keyword that css bring us to identify and be able to refer to any particular property without possibility of conffusion. For that reason, every property have a unique and distinctive name.</p></dd>
+    
+          <dt><h3>Values</h3></dt>
+          <dd><p>A value in CSS is a predefined keyword that represents an element's particular possible concrete visual characteristic that can be asigned as an actual visual characteristic of the element styled by a declaration.</p></dd>
+        </dl>
+        
+      </dd>
+      
+      <dt><h2>CSS Declaration</h2></dt>
+      <dd><p>CSS declarations are the css basic units, these allows the programmers to assign a specific value to a specific property.<br>Declaration syntax structure consists of the CSS property name and a value to assign, separated by a colon (":"), representing the operation of assignement</p>
+        <figure><figcaption>example:</figcaption> 
+          <code>
+            color:blue
+          </code>
+        </figure>
+      </dd>
+      
+      <dt><h2>Style Rule</h2></dt>
+      <dd><p>A CSS rule consists of a selector and a declaration block. These style rules allows the programers to applied the value assignations to the properties of the elements he wants</p>
+      
+        <dl>
+          <dt><h3>Selectors</h3></dt>
+          <dd><p>CSS selectors are the part of the style rule that allows the programmer to indicate (or select) the HTML elements whose properties will be assign in the declarations</p></dd>
+          
+          <dt><h3>Declaration block</h3></dt>
+          <dd><p>A declaration block is a sequence, that is surrounded by curly braces ("{}"), of one or more declarations separated by semicolons (";"). The last declaration can end with semicolons, and the space, tab and newline characters are ignored.</p>
+            <figure><figcaption>example:</figcaption> 
+              <code>
+                {
+                color: red;
+                text-align: center;
+                }
+              </code>
+            </figure>
+          </dd>
 
-      <dt><h2>CSS Properties</h2></dt>
-      <dd><p></p></dd>
-
-      <dt><h2>CSS Properties</h2></dt>
-      <dd><p></p></dd>
+        </dl>
+        
+      </dd>
     </dl>
 
-
+  </main>
 </body>
 </html>
