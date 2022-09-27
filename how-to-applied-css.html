@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>How to applied the CSS code to an html document</title>
 </head>
-<body
+<body>
   <header>CSS First Steps</header>
   <nav></nav>
   <main>
@@ -41,16 +41,16 @@
     </section>
 
     <section>
-      <header><h2>Property overrides</h2></header>
+      <header><h2>Priority order of CSS code sources of different types</h2></header>
 
-      <p>When there is more than one css code inserted to a html document specifing different values for the same property, all the assignements to the property are processed in a specific order and the last finded will override the previous.</p>
-      <p>The mentioned order followed is the next:
+      <p>When there are multiple assignments for the same property from css codes of different types (inline/internal/external), the one that has the highest priority will override all the others.</p>
+      
+      <p>The priority order is the next, where the first has the lowest priority:
       <ol>
-        <li>Browser default</li>
         <li>External and internal style sheets</li>
         <li>Inline style</li>
       </ol>
-In the case of the style sheets, the order follows corresponds to the order of the &lt;link&gt; and &lt;style&gt; tags in the html document.</p>
+In the case of the style sheets, the order followed corresponds to the order of the &lt;link&gt; and &lt;style&gt; tags in the html document.</p>
       
       <p>This means that the styles in a page will <strong>"cascade"</strong> into a new "virtual" style sheet that corresponds to the screen shown result.</p>
     </section>
