@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline CSS, Internal CSS and External CSS</title>
+</head>
+<body>
+  <header>CSS First Steps</header>
+  <nav></nav>
+  <main>
+    <h1>Inline CSS, Internal CSS and External CSS</h1>
+    
+    <article>
+        <header><h2>CSS inline</h2></header>
+        <p>CSS inline is the way we call the CSS code that style an html document by adding the style attribute of the relevant html elements with a value that can be any sequence of CSS declarations separated by semicolons (";") where, optionally, the last can end with semicolons.</p>
+      
+        <p>When styling this way, we can't reuse the assignements added to a particular element.</p>
+    </article>
+    
+    <article>
+        <header><h2>CSS internal</h2></header>
+        <p>CSS internal is the way we call the CSS code that comes from an internal style sheet.</p>
+        <p>The internal style sheets are the sets of any number of style rules that are defined inside a &lt;style&gt; element, inside the head section. Those only can style the page where they was declaraded but allow the reuse of assignments in different elements by selectors.</p>
+    </article>
+    
+    <article>
+        <header><h2>CSS external</h2></header>
+        <p>CSS external is the way we call the CSS code that comes from an external style sheet.</p>
+      
+        <p>The external style shets are .css files that contains any number of style rules. With this kind of style shets, we can change the look of any html document by changing just one file.</p>
+        
+        <p>Each html page that has to be styled with external CSS must include a reference to the external style sheet file inside the &lt;link&gt; element, inside the head section. We can do this by adding in that element the "href" attribute with a value of the .css file URL and the "rel" attribute with the value: "stylesheet".</p>
+      </article>
+    
+  </main>
+  <aside></aside>
+  <footer></footer>
+</body>
+</html>
