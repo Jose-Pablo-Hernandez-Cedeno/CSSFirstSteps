@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attribute selectors</title>
+</head>
+<body>
+  <header>CSS First Steps</header>
+  <nav></nav>
+  <main>
+    <h1>Attribute selectors</h1>
+
+    <section id = "flags">
+      <header><h2>Case sensitivity flags</h2></header>
+      <P>All attribute selectors, except for the "[attr]", follow the next syntax:</P>
+
+      <div class = "syntax_box">
+        <div class = "heading_box">
+          <span class = "heading">Syntax:</span>
+        </div>
+        <div class = "content_box">
+          <span class = "content">[attr <span style = "color:blue">operator</span> value <span style = "color:green">flag</span>]</span>
+        </div>
+      </div>
+
+      <p>where <strong>flag</strong> is optional and can be either i(or I) or s(or S). When the first is present, the attribute values will be comparated case-insensitively, and, when the second is present, those will be comparated case-sensitively.</p>
+      <div class = "note"><p>This fact only applies for attribute values with characters within the ASCII range and case-sensitive matching via s flags is only possible in systems that preserve the original case, so it has less browser compatibility.</p></div>
+    </section>
+    
+    <section>
+      <header><h2>The Selectors</h2></header>
+      
+      <article id = "[attr]">
+        <header><h3></h3></header>
+        <P></P>
+      </article>
+  
+      <article id = "[attr=value]">
+        <header><h3>[attr=value]</h3></header>
+        <P></P>
+      </article>
+  
+      <article id = "[attr~=value]">
+        <header><h3>[attr~=value]</h3></header>
+        <P></P>
+      </article>
+
+      <article id = "[attr|=value]">
+        <header><h3>[attr|=value]</h3></header>
+        <P></P>
+      </article>
+  
+      <article id = "[attr^=value]">
+        <header><h3>[attr^=value]</h3></header>
+        <P></P>
+      </article>
+  
+      <article id = "[attr$=value]">
+        <header><h3>[attr$=value]</h3></header>
+        <P></P>
+      </article>
+
+      <article id = "[attr*=value]">
+        <header><h3>[attr*=value]</h3></header>
+        <P></P>
+      </article>
+    </section>
+
+  </main>
+  <aside></aside>
+  <footer></footer>
+</body>
+</html>
