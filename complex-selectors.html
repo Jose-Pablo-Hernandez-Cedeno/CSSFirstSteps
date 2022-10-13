@@ -4,26 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Compound selectors</title>
+  <title>Complex selectors</title>
 </head>
 <body>
   <header>CSS First Steps</header>
   <nav></nav>
   <main>
-    <h1>Compound selectors</h1>
+    <h1>Complex selectors</h1>
 
-    <p>All compound selectors follow the next syntax:</p>
+    <p>All complex selectors follow the next syntax:</p>
 
       <div class = "syntax_box">
         <div class = "heading_box">
           <span class = "heading">Syntax:</span>
         </div>
         <div class = "content_box">
-          <span class = "content"><span style = "color:green">Selector1</span>Selector2...SelectorN</span>
+          <span class = "content">Selector1 <span style = "color:blue">combinator1</span> Selector2 <span style = "color:blue">combinator2</span> ... <span style = "color:blue">combinatorN-1</span> SelectorN</span>
         </div>
       </div>
 
-    <p>Where only <strong>Selector1</strong> can be a universal or type selector and each of the anothers can be any other basic selector, attribute selector or single pseudo-class or pseudo-element.</p>
+
+
+    <--to do-->
+    <p>Where each selector can be any compound selector and the SelectorN, known as the key selector, identifies the elements that the rule applies to.</p>
     
     <p>A compound selector selects the elements that simultaneously matches all the given selectors.</p>
     
