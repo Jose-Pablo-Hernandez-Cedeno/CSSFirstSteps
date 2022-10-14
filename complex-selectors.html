@@ -14,22 +14,23 @@
 
     <p>All complex selectors follow the next syntax:</p>
 
-      <div class = "syntax_box">
-        <div class = "heading_box">
-          <span class = "heading">Syntax:</span>
-        </div>
-        <div class = "content_box">
-          <span class = "content">Selector1 <span style = "color:blue">combinator1</span> Selector2 <span style = "color:blue">combinator2</span> ... <span style = "color:blue">combinatorN-1</span> SelectorN</span>
-        </div>
+    <div class = "syntax_box">
+      <div class = "heading_box">
+        <span class = "heading">Syntax:</span>
       </div>
-
-
-
-    <--to do-->
-    <p>Where each selector can be any compound selector and the SelectorN, known as the key selector, identifies the elements that the rule applies to.</p>
+      <div class = "content_box">
+        <span class = "content">Selector1 <span style = "color:blue">combinator1</span> Selector2 <span style = "color:blue">combinator2</span> ... <span style = "color:blue">combinatorN-1</span> SelectorN</span>
+      </div>
+    </div>
     
-    <p>A compound selector selects the elements that simultaneously matches all the given selectors.</p>
+    <p>Where each selector can be any compound selector and the SelectorN is known as the <strong>key selector</strong>.</p>
     
+    <p>A complex selector selects all the elements that simultaneously match the key selector and have a relationship, described by the last combinator, with an element that matches the compound/complex selector previous to that combinator.</p>
+    
+    <div class = "note">
+      <p>Every combinator represents a specific relationship between two compound selectors, see each of them in the next lessons.</p>
+    </div>
+
   </main>
   <aside></aside>
   <footer></footer>
